@@ -62,89 +62,6 @@
             для вашего бизнеса
           </h1>
           <button data-modal-open class="button order">Заказать услугу</button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="window-container">
-              <button data-modal-close type="button" class="close-btn">
-                <svg width="11px">
-                  <use href="./images/symboldefs.svg#close-icon"></use>
-                </svg>
-              </button>
-
-              <b class="title-form">Оставьте свои данные, мы вам перезвоним</b>
-
-              <form class="form-window">
-                <div class="enter-data">
-                  <input
-                    type="text"
-                    name="user-name"
-                    id="name"
-                    autocomplete="off"
-                    placeholder=" "
-                    class="field-input"
-                  />
-                  <label for="name">Имя</label>
-                  <svg class="name-icon">
-                    <use href="./images/symboldefs.svg#nameicon"></use>
-                  </svg>
-                </div>
-
-                <div class="enter-data">
-                  <input
-                    type="tel"
-                    name="user-phone"
-                    id="telephone"
-                    autocomplete="off"
-                    placeholder=" "
-                    class="field-input"
-                  />
-                  <label for="telephone">Телефон</label>
-                  <svg class="telephone-icon">
-                    <use href="./images/symboldefs.svg#telephone-icon"></use>
-                  </svg>
-                </div>
-
-                <div class="enter-data">
-                  <input
-                    type="email"
-                    name="user-email"
-                    id="email"
-                    autocomplete="off"
-                    placeholder=" "
-                    class="field-input"
-                  />
-                  <label for="email">Почта</label>
-                  <svg class="telephone-icon">
-                    <use href="./images/symboldefs.svg#mail-icon"></use>
-                  </svg>
-                </div>
-
-                <div class="enter-comment">
-                  <textarea
-                    name="comment"
-                    id="comment"
-                    rows="10"
-                    placeholder=" "
-                    class="field-comment"
-                  ></textarea>
-                  <label for="comment">Комментарий</label>
-                </div>
-
-                <div class="checkbox-container">
-                  <label class="agree-label"
-                    ><input type="checkbox" name="agree" class="checkbox" />
-                    <svg class="icon-check">
-                      <use href="./images/symboldefs.svg#icon-check"></use>
-                    </svg>
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="conditions-contract"
-                      >Условия договора</a
-                    ></label
-                  >
-                </div>
-                <button type="submit" class="button-send">Отправить</button>
-              </form>
-            </div>
-          </div>
         </div>
       </section>
       <!--Преимущества работы-->
@@ -552,9 +469,90 @@
             </form>
           </div>
         </div>
-        <p class="end-footer">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="window-container">
+        <button data-modal-close type="button" class="close-btn">
+          <svg width="11px" height="11px">
+            <use href="./images/symboldefs.svg#close-icon"></use>
+          </svg>
+        </button>
+
+        <b class="title-form">Оставьте свои данные, мы вам перезвоним</b>
+
+        <form class="form-window">
+          <div class="enter-data">
+            <input
+              type="text"
+              name="user-name"
+              id="name"
+              autocomplete="off"
+              placeholder=" "
+              class="field-input"
+            />
+            <label for="name">Имя</label>
+            <svg class="name-icon">
+              <use href="./images/symboldefs.svg#nameicon"></use>
+            </svg>
+          </div>
+
+          <div class="enter-data">
+            <input
+              type="tel"
+              name="user-phone"
+              id="telephone"
+              autocomplete="off"
+              placeholder=" "
+              class="field-input"
+            />
+            <label for="telephone">Телефон</label>
+            <svg class="telephone-icon">
+              <use href="./images/symboldefs.svg#telephone-icon"></use>
+            </svg>
+          </div>
+
+          <div class="enter-data">
+            <input
+              type="email"
+              name="user-email"
+              id="email"
+              autocomplete="off"
+              placeholder=" "
+              class="field-input"
+            />
+            <label for="email">Почта</label>
+            <svg class="telephone-icon">
+              <use href="./images/symboldefs.svg#mail-icon"></use>
+            </svg>
+          </div>
+
+          <div class="enter-comment">
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder=" "
+              class="field-comment"
+            ></textarea>
+            <label for="comment">Комментарий</label>
+          </div>
+
+          <div class="checkbox-container">
+            <label class="agree-label"
+              ><input type="checkbox" name="agree" class="checkbox" />
+              <svg class="icon-check">
+                <use href="./images/symboldefs.svg#icon-check"></use>
+              </svg>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="conditions-contract">Условия договора</a></label
+            >
+          </div>
+          <button type="submit" class="button-send">Отправить</button>
+        </form>
+      </div>
+    </div>
 
     <script src="./js/modal.js"></script>
   </body>
